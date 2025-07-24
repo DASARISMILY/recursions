@@ -1,0 +1,8 @@
+# tail recursion 
+def head(n):
+    if n==0:
+        return
+    print(n)
+    head(n-1)
+num=int(input("enter the number"))
+head(num)
