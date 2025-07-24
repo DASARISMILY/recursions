@@ -1,0 +1,7 @@
+# tail recursion 
+def sumtail(n,temp=0):
+    if n==0:
+        return temp
+    return sumtail(n-1,temp+n)
+num=int(input("enter the number"))
+print("sum:",sumtail(num))
