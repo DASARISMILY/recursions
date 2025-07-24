@@ -1,0 +1,7 @@
+# head recursion 
+def sumhead(n):
+    if n==0:
+        return 0
+    return n+sumhead(n-1)
+num=int(input("enter the number"))
+print("sum:",sumhead(num))
